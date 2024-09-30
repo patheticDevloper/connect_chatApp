@@ -1,6 +1,6 @@
 import { ssrExportAllKey } from "vite/runtime";
 
-export const HOST = import.meta.env.VITE_SERVER_URL || '/api';
+export const HOST = import.meta.env.VITE_SERVER_URL || 'https://connect-chatapp.onrender.com'; 
 
 
 export const AUTH_ROUTES = "/api/auth"
