@@ -1,6 +1,6 @@
 import { ssrExportAllKey } from "vite/runtime";
 
-export const HOST = import.meta.env.VITE_SERVER_URL;
+export const HOST = import.meta.env.VITE_SERVER_URL || '/api';
 
 
 export const AUTH_ROUTES = "/api/auth"
