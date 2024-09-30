@@ -1,0 +1,11 @@
+{
+    "name": "my-mern-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "client": "npm start --prefix client",
+      "build": "npm install && npm run build --prefix client",
+      "server": "npm start --prefix server"
+    }   
+  }
+  
